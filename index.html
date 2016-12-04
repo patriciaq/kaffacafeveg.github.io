@@ -1,61 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<link rel="stylesheet" type="text/css" href="miestilo,css.css"/>
+<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+
+			<link rel="stylesheet" type="text/css" href="themes/bar/bar.css">
+
+			<link rel="stylesheet" type="text/css" href="themes/dark/dark.css">
+
+			<link rel="stylesheet" type="text/css" href="themes/default/default.css">
+			
+			<link rel="stylesheet" type="text/css" href="themes/light/light.css">
+
+			<link rel="stylesheet" type="text/css" href="css/miestilo.css"/>
+
+			<link rel="stylesheet" type="text/css" href="themes/">
+
+			<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" /> 
+
+			<script src="scripts/jquery-1.9.0.min.js" type="text/javascript"></script>
 
 
-<!--Jquary-->
-<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+			<!-- Script de Jquery -->
 
-<!--archivosnivoslider-->
+			<script type="text/javascript"> 
+				$(window).on('load', function() {
+				    $('#slider').nivoSlider(); 
+				}); 
+			</script>
 
-<script type="text/javascript" src="scripts/nivoslider.jquery.json"></script>
-<script type="text/javascript"> 
-$(window).on('load', function() {
-    $('#slider').nivoSlider(); 
-}); 
-</script>
+			<!-- fin  -->
 
-<link rel="stylesheet" type="text/css" href="CSS/nivo-slider.css"/>
-<link rel="stylesheet" type="text/css" href="themes/light/light.css"/>
-<link rel="stylesheet" type="text/css" href="themes/default/default.css"/>
-<link rel="stylesheet" type="text/css" href="themes/dark/dark.css"/>
-<link rel="stylesheet" type="text/css" href="themes/bar/bar.css"/>
+			<script src="scripts/jquery.nivo.slider.pack.js" type="text/javascript"></script> 
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Documento sin título</title>
-</head>
+			<title>WebHuevo</title>
+		</head>
 
-<body>
+	<body>
 
-<div class="menu">
- <ul id="nav">
-  <li class="current"><a href="#section-1">Home</a></li>
-    <li><a href="#section-2">Destacados</a></li>
-    <li><a href="#section-3">Productos</a></li>
-    <li><a href="#section-4">Nosotros</a></li>
+		<div class="menu">
+		 <ul id="nav">
+		  <li class="current"><a href="#section-1">Home</a></li>
+		    <li><a href="#section-2">Destacados</a></li>
+		    <li><a href="#section-3">Productos</a></li>
+		    <li><a href="#section-4">Nosotros</a></li>
+		    <li><a href="#section-5">Contacto</a></li>
+		 </ul>
+		</div>
+		<!--FINMENU-->
 
- </ul>
-</div><!--FINMENU-->
+	
+	  	<!--Inicio del Slider -->
 
-<div class="slider01">
+	  	<div class="slider01">
+			<div id="slider" class="nivoSlider">    <img src="prueba/E24.jpg">
+				<img src="prueba/High-Bridge-Cafe-new.jpg">
+			</div>
+		</div> 
+		
+		<div id="htmlcaption" class="nivo-html-caption">     
+    		
+    		<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
 
-  <div class="slider-wrapper theme-default"   <div id="slider" class="nivoSlider">     
-   
-nivo-html-cap</div>
-  
-    <
-rong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
-</div>
+		</div>
 
-</div>
+	
 
-<footer></footer>
-
-
-
-
-
-
-</body><!--Finbody-->
+		<footer></footer>
+	</body><!--Finbody-->
 </html>
