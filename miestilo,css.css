@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+	padding:0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+#nav {
+	margin-top: 50px;
+	height: 50px;
+	left: 0;
+	list-style: none;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+background-color: rgba(211, 170, 66, 0.6);
+	z-index:10;
+}
+.menu {
+	float:right;
+	margin-top:25px;
+}
+.menu ul {
+	margin:0;
+	padding:0;	
+}
+.menu ul li {
+	display:inline-block;
+	font-size:14px;
+	list-style-type:none;	
+}
+.menu ul li a{
+	color: rgba(255,255,255,1.00);
+	padding:10px 20px 10px 20px;
+	text-decoration:none;
+}
+.menu ul li a:hover{
+	background-color: #33939F;
+	}
+.activo{
+	color: #FF6;
+}
+.contenido{
+	width:1600px;
+	heigth:600px;
+	background-color:#0C6;
+}
+.slider01{
+	width:1600;
+	height:600px;
+	background-image:url(PRUEBA/E24.jpg);
+}
+footer{
+  width:100%;
+  height:200px;
+  background-color:#000;
+}
+
