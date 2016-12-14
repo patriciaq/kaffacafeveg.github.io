@@ -4,16 +4,27 @@ body {
 	margin:0;
 	padding:0;
 }
+#logo {
+	height: 70px;
+	width: 120px;
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	left: 80px;
+	z-index:11;
+	margin:50px;
+}
 ul {
   margin: 0;
   padding: 0;
 }
 p {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
 }
 #nav {
-	margin-top: 50px;
-	height: 50px;
+	height: 70px;
 	left: 0;
 	list-style: none;
 	overflow: hidden;
@@ -21,7 +32,7 @@ p {
 	right: 0;
 	text-align: center;
 	top: 0;
-background-color: rgba(211, 170, 66, 0.6);
+	background-color:#000;
 	z-index:10;
 }
 .menu {
@@ -29,7 +40,7 @@ background-color: rgba(211, 170, 66, 0.6);
 	margin-top:25px;
 }
 .menu ul {
-	margin:0;
+	margin:50px;
 	padding:0;	
 }
 .menu ul li {
@@ -43,24 +54,406 @@ background-color: rgba(211, 170, 66, 0.6);
 	text-decoration:none;
 }
 .menu ul li a:hover{
-	background-color: #33939F;
+	background-color:#aac53a;
 	}
 .activo{
 	color: #FF6;
 }
 .contenido{
-	width:1600px;
+	width:1800px;
 	heigth:600px;
 	background-color:#0C6;
 }
 .slider01{
-	width:1600;
-	height:600px;
-	background-image:url(PRUEBA/E24.jpg);
+	width: 1600px;
+	height: 800px;
+	padding-bottom: 21px;
+	padding-top: 21px;
+}
+.container{
+	width:960px;
+	margin:0 auto;
+}
+.container2{
+	width:960px;
+	margin:0 auto;
+}
+.bannergrande{
+	width:960px;
+	height:200px;
+}
+.row{
+ float:left;
+ }
+.banner001{
+  width:100%;
+  height: 400px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  background-color:#0F6;
+}
+.cubito1{
+    width:258px;
+	height:188px;
+	float:left;
+	padding-right:20px;
+	padding-left:80px;	
+}
+.cubito2{
+    width:258px;
+	height:188px;
+	float:left;
+	padding-right:20px;
+}
+.cubito3{
+    width:258px;
+	height:188px;
+	float:left;
+}
+.header02{
+  width:960px;
+  height:70px;
+  background-color:#000;
+ }
+.headertexto01{
+	font-size:30px;
+	color:#FFFFFF;
+	padding-left:50px;
+ }
+.banner002{
+  width:100%;
+  height: 200px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+ }
+ .somos1{
+    width:346px;
+	height:369px;
+	background-color:#000;
+	float:left;
+}
+.somostexto{
+    width:614px;
+	height:90px;
+	float:left;
+	background-position: center center;
+	padding-left:200px;
+	font-size:15px;
+	padding-top:50px;
+}
+.header03{
+  width:100%;
+  height: 400px;
+  padding-left:15px;
+}
+.imagenesheader03{
+	background-repeat:no-repeat;
+	float:left;
+}
+.headertexto03{
+	font-size:30px;
+	color:#FFF;
+	padding-left:450px;
+	padding-bottom:20px;
+	padding-top:50px;
+}
+.header04{
+  width:100%;
+  height:100px;
+  background-color:#000;
+}
+.textoheader04{
+	font-size:30px;
+	color:#FFFFFF;
+	padding-left:30px;
+	padding-bottom:5px;
+	padding-top:5px;
+ }
+.banner004{
+  width:100%;
+  height: 400px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+ }
+ .bannercubito1{
+	width:400px;
+	height:100px;
+	padding-bottom: 21px;
+    padding-top: 21px;
+	background-color:#999;
+ }.cubo01{
+	 width:100px;
+	 height:100px;
+	 background-color:#3F9;
+ }.textocubito01{
+	 width:300px;
+	 height:100px;
+	 background-color:#333;
+	 padding-right:20px;
+	 padding-left:20px;
+ }
+.section {
+}#section-3 {
+	width: 100%;
+	height: 600px;
+}
+#cont_titulo {
+	height: auto;
+	width: 160px;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.centrado{
+	width:960px;
+	margin:0 auto;
+}
+#contenedormenu {
+	height: 350px;
+	width: 223px;
+	float: left;
+	text-align: center;
+	height: inherit;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-right: 37px;
+}
+#productos_cuadro {
+	height: 350px;
+	width: 200px;
+	float: left;
+}
+#productos_contenedor14 {
+	height: 175px;
+	width: 700px;
+	float: left;
+}
+
+#productos_foto1 {
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/cafe2.jpg);
+	height: 220px;
+	width: 215px;
+	float: left;
+	margin-left:5px;
+}
+#productos_foto2 {
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/cafe1.jpg);
+	height: 220px;
+	width: 215px;
+	float: left;
+	margin-left:5px;
+}
+#productos_foto3 {
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/cafe3.jpg);
+	height: 220px;
+	width: 215px;
+	float: left;
+	margin-left:20px;
+}
+#productos_foto4 {
+	background-color:#939;
+	height: 220px;
+	width: 215px;
+	float: left;
+	margin-left:5px;
+}
+#productos_foto5 {
+	background-color:#939;
+	height: 140px;
+	width: 115px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 5px;
+	border: 2px solid #FFF;
+}
+#productos_foto6 {
+	background-color:#939;
+	height: 220px;
+	width: 215px;
+	float: left;
+	margin-left:5px;
+}
+#productos_foto7 {
+	background-color:#939;
+	height: 140px;
+	width: 115px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 5px;
+	border: 2px solid #FFF;
+}
+#productos_foto8 {
+	background-color:#939;
+	height: 140px;
+	width: 115px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 5px;
+	border: 2px solid #FFF;
+}
+.header05{
+  width:100%;
+  height:120px;
+  background-color:#000;
+ }
+.textoheader05{
+    font-size:20px;
+	color:#FFFFFF;
+	padding-left:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.bannergrande2{
+	width:960px;
+	height:300px;
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/PERSONAL.jpg);
+}
+.textobannergrande2{
+    font-size:60px;
+	color:#FFFFFF;
+	padding-left:30px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.banner005{
+  width:100%;
+  height: 400px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
+.cajabanner0051{
+	width:250px;
+	height:400px;
+	float:left;
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/pastelero.jpg);
+	background-repeat:no-repeat;
+	margin-left:80px;
+	padding-left:30px;
+}
+.textobannerpastelero{
+	color:#000;
+	padding-top:210px;
+	padding-right:20px;
+}
+.cajabanner0052{
+	width:250px;
+	height:400px;
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/cafetero.jpg);
+	float:left;
+	background-repeat:no-repeat;
+	padding-left:30px;
+}
+.textobannercafetero{
+	color:#000;
+	padding-top:210px;
+	padding-right:20px;
+}
+.cajabanner0053{
+	width:250px;
+	height:400px;
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/mesera1.jpg);
+	float:left;
+	background-repeat:no-repeat;
+	padding-left:30px;
+}.textobannermesero{
+	color:#000;
+	padding-top:210px;
+	padding-right:20px;
+}
+.headerpequeño{
+    width:100%;
+	height:120px;
+	background-color:#000;
+}
+.header06{
+  width:100%;
+  height:300px;
+  background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/prueba/eventos.jpg);
+ }
+.banner006{
+  width:100%;
+  height: 480px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  float:left;
+}
+.textoeventos{
+	width:380px;
+	height:400px;
+	float:left;
+	font-size:22px;
+	padding-top:40px;
+	padding-left:40px;
+}
+.foto1{
+	width:480px;
+	height:480px;
+	float:left;
+	background-image:url(file:///C|/Users/Patricia/Desktop/cafeweb/foto1.jpg);
+}
+.h3{
+	background-position:center;
+	padding-top:100px;
+	color:#FFF;
+ }
+.header07{
+  width:100%;
+  height:350px;
+  background-color:#CC0:;
+ }
+.bannerpequeño{
+  width:100%;
+  height: 200px;
+  background-color:#0C6;
+}
+.banner008{
+	width: 100%;
+	height: 400px;
+	font-size: 28px;
+	background-position: center;
+	text-align: center;
+}
+.mapa{
+  width:100%;
+  height:320px;
+}
+
+.formulario{
+	width:100%;
+	height:400px;
+}
+.cajafondo_formulario {
+	float: left;
+	width: 400px;
+	height:400px;
+	background-color:#000;
+	color:#FFF;
+	padding-left:100px;
+}
+.foo_4{
+	width:240px;
+	height:100px;
+	padding-left:500px;
+}
+.textoformulario{
+	padding-left:400px;
+	background-color:#06C;
+}
+.cajafondo_formulario2 {
+	float: left;
+	width: 400px;
+	height:400px
+	color:#FFF;
+	padding-left:300px;
+	padding-top:120px;
 }
 footer{
   width:100%;
-  height:200px;
-  background-color:#000;
-}
-
+  height:100px;
+  background-color:#aac53a;
+  

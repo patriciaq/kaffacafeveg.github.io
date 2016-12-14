@@ -21,30 +21,48 @@
 
 			<!-- Script de Jquery -->
 
-			<script type="text/javascript"> 
-				$(window).on('load', function() {
+			<script type="text/javascript">
+$(window).on('load', function() {
 				    $('#slider').nivoSlider(
 				    	{
 				    		effect: 'fold',
+						 pauseTime: 3000, 
 				    	}); 
-				}); 
-			</script>
+				});
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+            </script>
 
 			<!-- fin  -->
 
 			<script src="scripts/jquery.nivo.slider.pack.js" type="text/javascript"></script> 
 
-			<title>WebHuevo</title>
+			<title>KaffaCafé</title>
 		</head>
 
 	<body>
+<div id="logo"> <img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/logo4.png" width="120" height="70"></div>
 
 		<div class="menu">
 		 <ul id="nav">
 		  <li class="current"><a href="#section-1">Home</a></li>
-		    <li><a href="#section-2">Destacados</a></li>
+		    <li><a href="#section-2">Historia</a></li>
 		    <li><a href="#section-3">Productos</a></li>
-		    <li><a href="#section-4">Nosotros</a></li>
+		    <li><a href="#section-4">Eventos</a></li>
 		    <li><a href="#section-5">Contacto</a></li>
 		 </ul>
 		</div>
@@ -52,24 +70,223 @@
 
 	
 	  	<!--Inicio del Slider -->
+ <div class="section" id="section-1">
 
-	  	<div class="slider01">
-		  	<div class="slider-wrapper theme-default">
+	  	<div class="slider">
+	  	  <div class="slider-wrapper theme-default">
 				<div id="slider" class="nivoSlider">    
-            		<img src="prueba/E24.jpg">
-					<img src="prueba/High-Bridge-Cafe-new.jpg">
-				</div>
-			</div>
-		</div> 
-		
+            	 
+                 <img src="file:///C|/Users/Patricia/Desktop/cafeweb/Sin título-1.jpg">
+               <img src="file:///C|/Users/Patricia/Desktop/cafeweb/slider02.jpg">
+               <img src="file:///C|/Users/Patricia/Desktop/cafeweb/slider03.jpg">
+                </div>
+		  </div>
+		</div>
+
+</div>
 		<div id="htmlcaption" class="nivo-html-caption">     
     		
     		<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
 
 		</div>
 
-	
+<div class="container"> 
+       
+             <div class="bannergrande">
+             <p style="font-size: 60px">Lo bueno de comer sano</p>
+     <p style="font-size: 24px">Crecer, desarrollarse y vivir saludablemente, con la energía que necesitamos para las actividades diarias
+Tener un estilo de vida saludable desde pequeños nos prepara para una mejor calidad de vida adulta, reduciendo las probabilidades de tener problemas de salud, de comportamiento, de atención e incluso de sueño</p>
+             
+             </div>
+         <div class="row">
+    
+        
+</div><!--fincotainer1-->
+     <div class="container">
+     <div class="section" id="section-2">
+         <div class="header02"> 
+             <div class= "headertexto01">
+                <p> Un poco de nuestra historia</p>
+             </div>
+         </div> <!--finheader02-->
+     </div>
+    <div class="banner002">
+      <div class="somostexto">
+       <p> Nuestra Cafetería Vegana/Vegetariana,es un lugar con un toque clásico y elegante. Destaca su excelente y rápido servicio, además de una amplia carta con variados platos nacionales e internacionales enfocados en la comida vegetariana. Es importante que en la cafetería, cuenta con una gran variedad en tipos de café y deliciosos pasteles para servir o llevar que son elaborados en el mismo lugar, además de una galeríadeliciosos y múltiples sabores. </p>
+      </div>
+    </div><!--finbanner02-->
+    </div>
+    
+  <div class="header03">
+  <img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/1.jpg" width="305" height="319"> 
+  <img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/2.jpg" width="305" height="319">
+  <img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/4.jpg" width="305" height="319"> 
+  </div><!--finheader03-->
 
-		<footer></footer>
+ </div><!--FINCONTAINER1-->
+ 
+   <div class="header04">
+      <div class="textoheader04">
+             <p>Menú</p>
+      </div>
+     </div><!--finheader04-->
+   
+ <div class="container">
+     <div class="section" id="section-3">
+            <div id="cont_titulo" style="padding-top:100px; color:rgba(255,255,255,1.00);"> 
+         </div>
+    <div class="centrado">
+    
+          <div id="cuadroproductos">
+          
+            <div id="productos_cuadro">
+                   <div id="productos_contenedor14">
+                         <div id="productos_foto1"></div>
+                         <div id="productos_foto2"></div>
+                         <div id="productos_foto3"></div>
+
+                   </div><!--contenedor14 -->
+          
+            </div> <!--fin productos cuadro --> 
+      </div>
+            
+            
+    </div><!--finrow2--> 
+ </div><!--FINCONTAINER2-->
+ 
+     <!--HEADER05SOLO-->
+   <div class="header05">
+       <div class="textoheader05">
+      <p>Cualquier reservación debe ser anticipado, sólo envia un correo</p>
+       </div>
+   </div>
+     <!--FINHEADERSOLO-->
+     
+     <div class="container"><!--CONTAINER3-->
+         <div class="bannergrande2">
+            <div class="textobannergrande2">
+            <p>Personal</p>
+            </div>
+         </div>
+         <div class="banner005">
+             <div class="cajabanner0051">
+               <div class="textobannerpastelero">
+               <p>Pastelero</p>
+                <p>Nuestros pasteleros son expertos en la cocina vegetariana, cocinando postres de alta calidad. </p>
+               </div>
+             </div><!--fincaja01-->
+           <div class="cajabanner0052">
+               <div class="textobannercafetero">
+                <p>Cafetero</p> 
+                  <p>Nuestros encargados de realizar el café presentan nuestros productos a los ojos de los clientes</p>
+             </div>
+           </div>
+               
+           <div class="cajabanner0053">
+              <div class="textobannermesero">
+               <p>Meseros</p>
+                 <p>Nuestros meseros realizan la interacción que debe a ver entre cliente y nosotros, otorgando la familiaridad que queremos demostrar con los clientes</p>
+             </div>
+           </div>
+      
+         </div> <!--fin banner05-->
+         <div class="headerpequeño">
+           <div class="textoheader05">
+      <p>Cualquier reservación debe ser anticipado, sólo envia un correo</p>
+       </div>
+         </div><!--headerpequeño-->
+         
+     </div><!--FINCONTAIER3-->
+     
+   <div class="header06">
+        <div class="textobannergrande2">
+          <div class="section" id="section-5">
+          <p>Eventos</p>
+        </div>
+     </div>
+   </div><!--header06-->
+     
+      <div class="section" id="section-4">
+     <div class="container">
+     
+        
+       <div class="banner006">
+         <div class="foto1"></div> 
+        <div class="textoeventos">
+          <p>Contamos con salones con capacidad para hasta 60 personas donde usted podrá realizar eventos de todo tipo, seminarios, reuniones o matrimonios.
+
+Nuestros salones cuentan con todo el equipamiento necesario para el buen desarrollo de sus negocios. Además ofrecemos servicio de arriendo de equipos complementarios y diversas alternativas de coffeebreaks, almuerzos ejecutivos, banquetes y cocktails </p>
+        
+        
+        </div>
+        
+        </div>
+      </div><!--FINCONTAINER4-->
+     </div>
+     
+   <div class="header07">
+      <img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/cosa.jpg" width="960" height="350"> </div>
+      
+       <div class="banner008">
+       
+          <h3 class="h3"> "No hay amor más sincero que el que sentimos por la comida"</h3>
+          <p class="h3">(George Bernard Shaw)</p>
+       
+   </div><!--finbanner08-->
+   </div><!--FINCONTAINER5-->
+         
+    
+      <div class="mapa"><!--MAPA-->
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1664.7599471451513!2d-70.64520314189724!3d-33.43575919519458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c598698e5f0d%3A0xf55c2f280dae969!2sIsmael+Vald%C3%A9s+Vergara+490%2C+Santiago%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1481663854556" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+  
+</div><!--FINMAPA-->
+
+ <div class="formulario">
+   <div class="cajafondo_formulario">
+         <form action="envia_mail.php" method="post" name="form1" id="form1" onsubmit="MM_validateForm('email','','R');return document.MM_returnValue">
+          <p>
+        <label for="nombre">NOMBRE<br />
+        </label>
+        <input type="text" name="nombre" id="nombre" />
+       
+      </p>
+         
+      <p>
+        <label for="email">EMAIL<br />
+        </label>
+        <input type="text" name="email" id="email" />
+      </p>
+      <p>ASUNTO
+        <br />
+        <input type="text" name="asunto2" id="asunto2" />
+      </p>
+     
+      <p>
+        <label for="mensaje">MENSAJE<br />
+        </label>
+        <textarea name="mensaje" id="mensaje" cols="45" rows="5"></textarea>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <input type="submit" name="enviar" id="enviar" value="Enviar" />
+      </p>
+      <p><br />
+      </p>
+    </form>
+    </div>
+   
+   <div class="cajafondo_formulario2">
+     <h2>"Disfruta de un ambiente cálido, además de la comida hecha por expertos que puede ser elegida a tu gusto"</h2>
+   
+   </div>
+   
+   </div>
+  
+ 
+ 
+   <footer>
+     <div class="foo_4"> <a href="www.facebook.cl"><img src="file:///C|/Users/Patricia/Desktop/cafeweb/prueba/redes.png" width="240" height="100"></a> </div>
+   
+    </footer>
 	</body><!--Finbody-->
 </html>
